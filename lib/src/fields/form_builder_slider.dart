@@ -4,7 +4,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:intl/intl.dart';
 
 class FormBuilderSlider extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final double initialValue;
   final bool readOnly;

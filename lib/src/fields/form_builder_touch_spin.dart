@@ -5,7 +5,7 @@ import 'package:flutter_touch_spin/flutter_touch_spin.dart';
 import 'package:intl/intl.dart';
 
 class FormBuilderTouchSpin extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final double initialValue;
   final bool readOnly;

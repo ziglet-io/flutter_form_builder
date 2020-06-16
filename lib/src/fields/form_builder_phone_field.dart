@@ -8,7 +8,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:phone_number/phone_number.dart';
 
 class FormBuilderPhoneField extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final String initialValue;
   final bool readOnly;

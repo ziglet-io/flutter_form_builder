@@ -11,7 +11,7 @@ enum ColorPickerType { ColorPicker, MaterialPicker, BlockPicker }
 class FormBuilderColorPickerField extends FormBuilderField<Color> {
   FormBuilderColorPickerField({
     Key key,
-    @required String attribute,
+    @required Object attribute,
     Color initialValue,
     FormFieldValidator validator,
     bool enabled = true,

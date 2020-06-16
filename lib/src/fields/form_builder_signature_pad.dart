@@ -6,7 +6,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:signature/signature.dart';
 
 class FormBuilderSignaturePad extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final Uint8List initialValue;
   final bool readOnly;

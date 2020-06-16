@@ -4,7 +4,7 @@ import 'package:flutter_form_builder/src/widgets/image_source_sheet.dart';
 import 'package:image_picker/image_picker.dart';
 
 class FormBuilderImagePicker extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final List initialValue;
   final bool readOnly;

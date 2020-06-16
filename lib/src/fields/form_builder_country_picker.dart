@@ -7,7 +7,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:flutter_form_builder/src/country_picker_util.dart';
 
 class FormBuilderCountryPicker extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final bool readOnly;
   final InputDecoration decoration;

@@ -10,7 +10,7 @@ import 'package:intl/intl.dart';
 enum InputType { date, time, both }
 
 class FormBuilderDateTimePicker extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final DateTime initialValue;
   final bool readOnly;

@@ -4,7 +4,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 
 class FormBuilderFilterChip extends FormBuilderField<dynamic> {
   // FormBuilder Settings
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final dynamic initialValue;
   final bool readOnly;

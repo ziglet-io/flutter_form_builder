@@ -7,7 +7,7 @@ import 'package:flutter_typeahead/flutter_typeahead.dart';
 typedef String SelectionToTextTransformer<T>(T suggestion);
 
 class FormBuilderTypeAhead<T> extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final T initialValue;
   final bool readOnly;

@@ -3,7 +3,7 @@ import 'package:flutter/scheduler.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 
 class FormBuilderField<T> extends FormField<T> {
-  final String attribute;
+  final Object attribute;
   final ValueTransformer valueTransformer;
   final FormFieldValidator validator;
   final ValueChanged<T> onChanged;

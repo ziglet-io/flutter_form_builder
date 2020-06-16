@@ -42,6 +42,10 @@ class MyHomePageState extends State<MyHomePage> {
 
   final ValueChanged _onChanged = (val) => print(val);
   var genderOptions = ['Male', 'Female', 'Other'];
+  final Map<dynamic, dynamic> _initialValue = {
+    'movie_rating': {'chuck': 5},
+    'best_language': 'Dart',
+  };
 
   @override
   Widget build(BuildContext context) {
@@ -58,10 +62,7 @@ class MyHomePageState extends State<MyHomePage> {
                 // context,
                 key: _fbKey,
                 autovalidate: true,
-                initialValue: {
-                  'movie_rating': 5,
-                  'best_language': 'Dart',
-                },
+                initialValue: _initialValue,
                 readOnly: false,
                 child: Column(
                   children: <Widget>[
@@ -354,7 +355,7 @@ class MyHomePageState extends State<MyHomePage> {
                     FormBuilderSegmentedControl(
                       decoration:
                           InputDecoration(labelText: 'Movie Rating (Archer)'),
-                      attribute: 'movie_rating',
+                      attribute: movie_rating['chuck'],
                       // initialValue: 1,
                       // textStyle: TextStyle(fontWeight: FontWeight.bold),
                       options: List.generate(5, (i) => i + 1)

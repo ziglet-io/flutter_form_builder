@@ -3,7 +3,7 @@ import 'package:flutter_chips_input/flutter_chips_input.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 
 class FormBuilderChipsInput<T> extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final List<T> initialValue;
   final bool readOnly;

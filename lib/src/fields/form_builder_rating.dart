@@ -5,7 +5,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:rating_bar/rating_bar.dart';
 
 class FormBuilderRating extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final double initialValue;
   final bool readOnly;

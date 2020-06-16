@@ -4,7 +4,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:group_radio_button/group_radio_button.dart';
 
 class FormBuilderRadioGroup extends FormBuilderField {
-  final String attribute;
+  final Object attribute;
   final FormFieldValidator validator;
   final dynamic initialValue;
   final bool readOnly;
