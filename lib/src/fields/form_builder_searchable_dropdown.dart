@@ -171,7 +171,8 @@ class FormBuilderSearchableDropdown<T> extends FormBuilderField<T> {
                 maxHeight: 300,
                 onFind: onFind,
                 onChanged: (val) {
-                  state.requestFocus();
+                  // Per https://github.com/danvick/flutter_form_builder/issues/703
+                  // state.requestFocus();
                   state.didChange(val);
                 },
                 showSearchBox: showSearchBox,
